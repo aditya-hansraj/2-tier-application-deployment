@@ -24,3 +24,6 @@ terraform.tfvars.json
 .idea/
 *.swp
 *~
+
+scripts/clearinfra.sh
+keys
