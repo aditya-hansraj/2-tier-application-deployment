@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.toggle-theme {
+    font-size: 1.4em;
+    padding: 0 1em;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+    bottom: 0;
+}
+
+.dark-mode {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.nav-button {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.hero-section .display-4 {
+    font-weight: 700;
+}
+
+.hero-section .lead {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+.hero-section .btn-primary {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+}
+
+.hero-section .btn {
+    font-size: 23px;
+}
+
+.feature-card {
+    transition:
+        transform 0.3s,
+        box-shadow 0.3s;
+    min-height: 30rem;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.loader-container {
+    height: 100%;
+    padding: 20%;
+}
+
+.form-btn {
+    font-size: 4em;
+    &:hover {
+        background-color: #757a7e7a;
+    }
+}
+
+.entry-form {
+    width: 100vw;
+    height: 69vh;
+    align-items: center;
+    font-size: 2em;
+}
+
+.entry-form .input {
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    background-color: transparent;
+    border-radius: 0;
+    width: 26em;
+}
+
+.page-2 {
+    min-height: 85%;
+    height: fit-content;
+    font-size: large;
+}
+
+.page-2 .content {
+    width: 100%;
+    font-size: large;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+textarea::-webkit-scrollbar {
+    width: 12px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px; 
+    border: none;
+    outline: none;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px; 
+    border: none;
+    outline: none;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: pointer;
+}
+
+/* For Firefox */
+textarea {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+.content-size-count {
+    font-size: 0.6em;
+}
+
+.text-red {
+    color: rgba(253, 109, 109, 0.913);
+}
+
+@media (max-width: 768px) {
+    .entry-form {
+        flex-direction: column; 
+    }
+    .entry-form .input {
+        width: 80%;
+    }
+}
+

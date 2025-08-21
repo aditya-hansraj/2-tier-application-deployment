@@ -1,0 +1,25 @@
+{
+    "features": [
+        {
+          "title": "Unlimited Entries",
+          "description": "Write as much and as often as you like without any limitations. Capture every moment, thought, and idea for free.",
+          "image": "/assets/unlimited-entries.png"
+        },
+        {
+          "title": "Tagging & Search",
+          "description": "Easily organize and find your entries using tags and powerful search functionality.",
+          "image": "/assets/tagging-searching.png"
+        },
+        {
+          "title": "Encryption & Privacy",
+          "description": "Your entries are securely encrypted, keeping your private thoughts and memories safe from prying eyes.",
+          "image": "/assets/privacy-security.png"
+        },
+        {
+          "title": "User-Friendly Interface",
+          "description": "Enjoy a sleek, intuitive design that makes journaling simple and enjoyable.",
+          "image": "/assets/ui.png"
+        }
+      ]
+      
+}
